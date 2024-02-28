@@ -1,0 +1,23 @@
+.main_container {
+  nav {
+    background-color: darkcyan;
+    ul {
+        display: flex;
+      li {
+        list-style: none;
+        padding: 20px 40px;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background-color: darken($color: darkcyan, $amount: 10%);
+            transition: all 1s;
+        }
+        &:last-child{
+            margin-left: auto;
+        }
+       
+      }
+    }
+   
+  }
+}
